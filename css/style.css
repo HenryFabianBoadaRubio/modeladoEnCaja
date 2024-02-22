@@ -1,5 +1,35 @@
-*{
-    padding: 0;
+* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    margin: 5px;
+}
+.cont--enlaces {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlace {
+    text-decoration: none;
+    color: gray;
+}
+
+.cont--cubos {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.cubos {
+    padding: 10px;
+    background-color: grey;
+    color: white;
 }
