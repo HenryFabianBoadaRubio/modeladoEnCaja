@@ -2,4 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+   
+}
+
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    align-content: flex-start;
+    gap: 25px;
+    margin: 20px;
+    
+}
+
+.img{
+    width: auto;
+    height: auto;
+    flex-basis: 100px;
+    filter: drop-shadow(5px 5px 10px rgb(116, 116, 114));
+    
+
 }
