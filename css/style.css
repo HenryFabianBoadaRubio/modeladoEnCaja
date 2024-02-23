@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+aside {
+    width: 400px;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    
+    
+}
+.item{
+    height: calc(25% - 10px);
+    padding: 23px;
+    background: rgb(216, 210, 210);
+    box-sizing: border-box; 
+    margin: 1%;    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.enlace{
+    justify-content: space-between;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+
