@@ -17,6 +17,12 @@ nav {
     justify-content: space-around;
 }
 
+
+
+
+
+
+
 .enlace {
     text-decoration: none;
     color: gray;
@@ -32,4 +38,6 @@ nav {
     padding: 10px;
     background-color: grey;
     color: white;
+    cursor: pointer;
 }
+
