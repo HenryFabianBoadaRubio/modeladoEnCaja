@@ -85,7 +85,7 @@ aside img {
 }
 .cajitas{
     padding: 20px;
-    /* background: #f1f1f1; */
+    background: #f1f1f1;
 
 }
 .box2 img{
@@ -130,11 +130,15 @@ aside img {
 }
 footer{
     display: flex;
-    width: 100%;
+    margin: 0 auto;
+    width: 1000px;
     height: 70px;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background:#dddddd;
-    ;
+    
+    bottom: 0;
+    position: fixed;
+    
 }
